@@ -1,0 +1,16 @@
+create database  dbEmpleados;
+
+create table empleado
+(
+
+    codigo  varchar(10) primary key,
+    cargo varchar(50),
+    nombre varchar(50),
+    apellido varchar(50),
+    telefono varchar(15),
+    sueldo decimal(10.2),
+    descuento decimal(10.2),
+    gratificacion decimal(10.2),
+    total decimal(10.2)
+    
+);
